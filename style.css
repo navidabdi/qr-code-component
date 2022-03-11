@@ -14,8 +14,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  font-size: 15px;
+  min-height: 100vh;
+  font-size: 0.925rem;
   font-weight: 400;
 }
 .qrcode {
@@ -24,6 +24,7 @@ body {
   width: 290px;
   border-radius: 1rem;
   box-shadow: 0 0 20px 15px hsl(220deg 15% 55% / 10%);
+  transform: scale(1.1);
 }
 .qrcode img {
   border-radius: 0.6rem;
